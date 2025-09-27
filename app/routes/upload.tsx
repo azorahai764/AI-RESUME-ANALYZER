@@ -66,6 +66,7 @@ const Upload=()=>{
 
         setStatusText('Analysis complete, redirecting...');
         console.log(data);
+        navigate(`/resume/${vvid}`);
     }
 
     const handleSubmit = (e:FormEvent<HTMLFormElement>) => {
